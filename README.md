@@ -8,7 +8,7 @@ Thainara Amaral<br>
 Júlio Cesar <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <Sistema de Avaliação Escolar> e motivação da escolha realizada. <br>
+Este documento contém a especificação do projeto do banco de dados Sistema de Avaliação Escolar e motivação da escolha realizada. <br>
 
 ### 3.MINI-MUNDO<br>
 Em todo o Brasil é possível observar o ensinamento insatisfatório em salas do ensino médio. Aulas sem didáticas, que dificultam o entendimento do aluno, turmas muito cheias e, até mesmo, alunos indisciplinados prejudicam o rendimento de uma classe inteira. <br>
