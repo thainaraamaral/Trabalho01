@@ -39,12 +39,7 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligandos os dois a diretamente a pauta.
 
 #### 5.3 DESCRIÇÃO DOS DADOS     
 DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.<br>
