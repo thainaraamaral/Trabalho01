@@ -81,6 +81,8 @@ Data: Campo que armazena as datas das pautas.
 
 
 ### 6	MODELO LÓGICO<br>
+![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/Modelo%20L%C3%B3gico.jpg "Modelo Lógico")
+
 ### 7	MODELO FÍSICO<br>
 
         Entrega até este ponto em (data a ser definida)
