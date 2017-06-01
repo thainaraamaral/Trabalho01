@@ -25,7 +25,7 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf<b
 
 
 
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
+![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf "Title")
 
 
 ### 5.MODELO CONCEITUAL<br>
