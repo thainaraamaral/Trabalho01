@@ -29,7 +29,7 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 
 ### 5.MODELO CONCEITUAL<br>
-    a) NOTACAO ENTIDADE RELACIONAMENTO
+![Alt text](Modelo Conceitual.jpg)
 ![Alt text](https://github.com/discipbd1/trab01/blob/master/sample_MC.png?raw=true "Modelo Conceitual")
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
