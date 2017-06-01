@@ -46,12 +46,38 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
 
-#### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+#### 5.3 DESCRIÇÃO DOS DADOS     
+DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.
+Nome: Campo que armazena o nome para cada disciplina.
+Total de Aulas: Campo que armazena o número total de aulas das disciplinas.
+Código da Disciplina: Campo que armazena o código referente a disciplina.
+
+ATIVIDADE: Tabela para o armazenamento de informações relativas as atividades.
+Data: Campo que armazena a data para as atividades.
+Nome: Campo que armazena o nome para cada atividade.
+Código da Atividade: Campo que armazena o código referente a atividade.
+
+TURMA: Tabela para o armazenamento de informações relativas as turmas.
+Descrição: Campo que armazena a descrição e o detalhamento da turma.
+Código da turma: Campo que armazena o código referente a turma.
+
+PESSOA: Tabela para o armazenamento de informações relativas as pessoas que compõem o sistema.
+E-mail: Campo que armazena os e-mails das pessoas do sistema.
+Nome: Campo que armazena os nomes das pessoas do sistema.
+Senha: Campo que armazena as senhas das pessoas do sistema.
+Código da Pessoa: Campo que armazena o código para diferenciação de pessoa, o código referente as pessoas.
+
+ALUNO: Tabela para o armazenamento de informações relativas aos alunos que compõem o sistema e diferenciação entre alunos e professores.
+Matricula: Campo que armazena as matriculas dos alunos.
+Horário: Campo que armazena os horários referentes aos alunos.
+PROFESSOR: Tabela para o armazenamento de informações relativas aos professores que compõem o sistema e diferenciação entre alunos e professores.
+Siape: Campo que armazena o Siape referente a cada professor.
+Horário: Campo que armazena os horários referentes aos professores.
+
+PAUTA: Tabela para o armazenamento de informações relativas a listagem de elementos.
+Código da Pauta: Campo que armazena o código referente a pauta e identifica a pauta de cada turma.
+Situação: Campo que armazena a frequência dos alunos.
+Data: Campo que armazena as datas das pautas.
 
 
 ### 6	MODELO LÓGICO<br>
