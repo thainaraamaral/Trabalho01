@@ -47,37 +47,37 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     b) justifique!
 
 #### 5.3 DESCRIÇÃO DOS DADOS     
-DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.
-Nome: Campo que armazena o nome para cada disciplina.
-Total de Aulas: Campo que armazena o número total de aulas das disciplinas.
-Código da Disciplina: Campo que armazena o código referente a disciplina.
+DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.<br>
+Nome: Campo que armazena o nome para cada disciplina.<br>
+Total de Aulas: Campo que armazena o número total de aulas das disciplinas.<br>
+Código da Disciplina: Campo que armazena o código referente a disciplina.<br>
 
-ATIVIDADE: Tabela para o armazenamento de informações relativas as atividades.
-Data: Campo que armazena a data para as atividades.
-Nome: Campo que armazena o nome para cada atividade.
-Código da Atividade: Campo que armazena o código referente a atividade.
+ATIVIDADE: Tabela para o armazenamento de informações relativas as atividades.<br>
+Data: Campo que armazena a data para as atividades.<br>
+Nome: Campo que armazena o nome para cada atividade.<br>
+Código da Atividade: Campo que armazena o código referente a atividade.<br>
 
-TURMA: Tabela para o armazenamento de informações relativas as turmas.
-Descrição: Campo que armazena a descrição e o detalhamento da turma.
-Código da turma: Campo que armazena o código referente a turma.
+TURMA: Tabela para o armazenamento de informações relativas as turmas.<br>
+Descrição: Campo que armazena a descrição e o detalhamento da turma.<br>
+Código da turma: Campo que armazena o código referente a turma.<br>
 
-PESSOA: Tabela para o armazenamento de informações relativas as pessoas que compõem o sistema.
-E-mail: Campo que armazena os e-mails das pessoas do sistema.
-Nome: Campo que armazena os nomes das pessoas do sistema.
-Senha: Campo que armazena as senhas das pessoas do sistema.
-Código da Pessoa: Campo que armazena o código para diferenciação de pessoa, o código referente as pessoas.
+PESSOA: Tabela para o armazenamento de informações relativas as pessoas que compõem o sistema.<br>
+E-mail: Campo que armazena os e-mails das pessoas do sistema.<br>
+Nome: Campo que armazena os nomes das pessoas do sistema.<br>
+Senha: Campo que armazena as senhas das pessoas do sistema.<br>
+Código da Pessoa: Campo que armazena o código para diferenciação de pessoa, o código referente as pessoas.<br>
 
-ALUNO: Tabela para o armazenamento de informações relativas aos alunos que compõem o sistema e diferenciação entre alunos e professores.
-Matricula: Campo que armazena as matriculas dos alunos.
-Horário: Campo que armazena os horários referentes aos alunos.
-PROFESSOR: Tabela para o armazenamento de informações relativas aos professores que compõem o sistema e diferenciação entre alunos e professores.
-Siape: Campo que armazena o Siape referente a cada professor.
-Horário: Campo que armazena os horários referentes aos professores.
+ALUNO: Tabela para o armazenamento de informações relativas aos alunos que compõem o sistema e diferenciação entre alunos e professores.<br>
+Matricula: Campo que armazena as matriculas dos alunos.<br>
+Horário: Campo que armazena os horários referentes aos alunos.<br>
+PROFESSOR: Tabela para o armazenamento de informações relativas aos professores que compõem o sistema e diferenciação entre alunos e professores.<br>
+Siape: Campo que armazena o Siape referente a cada professor.<br>
+Horário: Campo que armazena os horários referentes aos professores.<br>
 
-PAUTA: Tabela para o armazenamento de informações relativas a listagem de elementos.
-Código da Pauta: Campo que armazena o código referente a pauta e identifica a pauta de cada turma.
-Situação: Campo que armazena a frequência dos alunos.
-Data: Campo que armazena as datas das pautas.
+PAUTA: Tabela para o armazenamento de informações relativas a listagem de elementos.<br>
+Código da Pauta: Campo que armazena o código referente a pauta e identifica a pauta de cada turma.<br>
+Situação: Campo que armazena a frequência dos alunos.<br>
+Data: Campo que armazena as datas das pautas.<br>
 
 
 ### 6	MODELO LÓGICO<br>
