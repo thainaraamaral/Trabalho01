@@ -21,7 +21,7 @@ O sistema tem como principal função avaliar turmas, disciplinas e professores.
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf<br>
 
 
 
