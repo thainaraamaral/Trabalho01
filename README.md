@@ -21,11 +21,11 @@ O sistema tem como principal função avaliar turmas, disciplinas e professores.
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf<br>
+<br>
 
 
 
-![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf "Title")
+![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf "Telas SAE")
 
 
 ### 5.MODELO CONCEITUAL<br>
