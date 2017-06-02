@@ -38,7 +38,9 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligando os dois diretamente a pauta.
+Disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligando os dois diretamente a pauta
+<br>
+Pauta: A pauta é um relacionamento entre relações que vira uma entidade associativa e foi utilizada pois necessitava juntar todas as relações, e, dessa forma vira uma tabela.
 
 #### 5.3 DESCRIÇÃO DOS DADOS     
 DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.<br>
