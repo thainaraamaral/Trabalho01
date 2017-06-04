@@ -21,11 +21,10 @@ O sistema tem como principal função avaliar turmas, disciplinas e professores.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-(https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf)
-
+https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf <br>
 
 ### 5.MODELO CONCEITUAL<br>
-![Alt text](ModeloConceitual.jpg)
+![Alt text](ModeloConceitual.jpg) <br>
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
@@ -38,7 +37,8 @@ Disciplina_professor : A relação disciplina_professor possui um atributo ident
 <br>
 Pauta: A pauta é um relacionamento entre relações que vira uma entidade associativa e foi utilizada pois necessitava interligar relações que geraria uma nova tabela. Na mesma conterá informações relativa a pauta, turma e disciplinas.
 
-#### 5.3 DESCRIÇÃO DOS DADOS     
+#### 5.3 DESCRIÇÃO DOS DADOS <br>
+
 DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.<br>
 Nome: Campo que armazena o nome para cada disciplina.<br>
 Total de Aulas: Campo que armazena o número total de aulas das disciplinas.<br>
