@@ -25,7 +25,7 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 
 
-![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf "Telas SAE")
+![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf)
 
 
 ### 5.MODELO CONCEITUAL<br>
@@ -40,7 +40,7 @@ neste ponto a codificação não e necessária, somente as ideias de telas devem
 #### 5.2 DECISÕES DE PROJETO
 Disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligando os dois diretamente a pauta
 <br>
-Pauta: A pauta é um relacionamento entre relações que vira uma entidade associativa e foi utilizada pois necessitava juntar todas as relações, e, dessa forma vira uma tabela.
+Pauta: A pauta é um relacionamento entre relações que vira uma entidade associativa e foi utilizada pois necessitava interligar relações que geraria uma nova tabela. Na mesma conterá informações relativa a pauta, turma e disciplinas.
 
 #### 5.3 DESCRIÇÃO DOS DADOS     
 DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.<br>
@@ -172,6 +172,7 @@ select * from empregado<br><br>
 ![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/tabela_empregado.png?raw=true "Title")
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
+
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
