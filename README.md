@@ -5,9 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ### 1.COMPONENTES<br>
 Thainara Amaral<br>
-Júlio Cesar <br>
+Júlio Cezar <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+
 Este documento contém a especificação do projeto do banco de dados Sistema de Avaliação Escolar e motivação da escolha realizada. <br>
 
 ### 3.MINI-MUNDO<br>
