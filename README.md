@@ -73,11 +73,11 @@ Data: Campo que armazena as datas das pautas.<br>
 
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/Modelo%20L%C3%B3gico.jpg "Modelo Lógico")
+![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/L%C3%93GICO.png "Modelo Lógico")
 
 ### 7	MODELO FÍSICO<br>
 
-https://github.com/thainaraamaral/Trabalho01/blob/master/Esquema%20F%C3%ADsico.sql
+https://github.com/thainaraamaral/Trabalho01/blob/master/MODELO%20F%C3%8DSICO.sql
 
 <br>    
  
