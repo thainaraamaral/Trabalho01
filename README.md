@@ -29,8 +29,8 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf <
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 #### 5.1 Validação do Modelo Conceitual
-    Grupo 1: Milena Gomes e Luiza Alves <br>
-    Grupo 2: Gabril Novaes e Sabrina Leal <br>
+  Grupo 1: Milena Gomes e Luiza Alves <br>
+  Grupo 2: Gabril Novaes e Sabrina Leal <br>
 
 #### 5.2 DECISÕES DE PROJETO
 Disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligando os dois diretamente a pauta
