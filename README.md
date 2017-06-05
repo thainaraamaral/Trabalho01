@@ -77,8 +77,7 @@ Data: Campo que armazena as datas das pautas.<br>
 
 ### 7	MODELO FÍSICO<br>
 
-https://github.com/thainaraamaral/Trabalho01/blob/master/MODELO%20F%C3%8DSICO.sql
-
+https://github.com/thainaraamaral/Trabalho01/blob/master/MODELO%20F%C3%8DSICO.sql 
 <br>    
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
