@@ -110,11 +110,9 @@ VALUES (001,'ANA','IFES2017','ANA.BD@GMAIL.COM'),
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-select * from empregado<br><br>
-![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/tabela_empregado.png?raw=true "Title")
 
 SELECT*FROM PESSOAS; <BR> <BR>
-(POR IMAGEM)
+![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/SELECT%20FROM%20PESSOA.png)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
