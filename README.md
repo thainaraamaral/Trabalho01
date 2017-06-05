@@ -40,35 +40,54 @@ Pauta: A pauta é um relacionamento entre relações que vira uma entidade assoc
 #### 5.3 DESCRIÇÃO DOS DADOS <br>
 
 DISCIPLINA: Tabela para o armazenamento de informações sobre a disciplina.<br>
+<BR>
 Nome: Campo que armazena o nome para cada disciplina.<br>
+<BR>
 Total de Aulas: Campo que armazena o número total de aulas das disciplinas.<br>
+<BR>
 Código da Disciplina: Campo que armazena o código referente a disciplina.<br>
-
+<BR>
 ATIVIDADE: Tabela para o armazenamento de informações relativas as atividades.<br>
+<BR>
 Data: Campo que armazena a data para as atividades.<br>
+<BR>
 Nome: Campo que armazena o nome para cada atividade.<br>
+<BR>
 Código da Atividade: Campo que armazena o código referente a atividade.<br>
-
+<BR>
 TURMA: Tabela para o armazenamento de informações relativas as turmas.<br>
+<BR>
 Descrição: Campo que armazena a descrição e o detalhamento da turma.<br>
+<BR>
 Código da turma: Campo que armazena o código referente a turma.<br>
-
+<BR>
 PESSOA: Tabela para o armazenamento de informações relativas as pessoas que compõem o sistema.<br>
+<BR>
 E-mail: Campo que armazena os e-mails das pessoas do sistema.<br>
+<BR>
 Nome: Campo que armazena os nomes das pessoas do sistema.<br>
+<BR>
 Senha: Campo que armazena as senhas das pessoas do sistema.<br>
+<BR>
 Código da Pessoa: Campo que armazena o código para diferenciação de pessoa, o código referente as pessoas.<br>
-
+<BR>
 ALUNO: Tabela para o armazenamento de informações relativas aos alunos que compõem o sistema e diferenciação entre alunos e professores.<br>
 Matricula: Campo que armazena as matriculas dos alunos.<br>
+<BR>
 Horário: Campo que armazena os horários referentes aos alunos.<br>
+<BR>
 PROFESSOR: Tabela para o armazenamento de informações relativas aos professores que compõem o sistema e diferenciação entre alunos e professores.<br>
+<BR>
 Siape: Campo que armazena o Siape referente a cada professor.<br>
+<BR>
 Horário: Campo que armazena os horários referentes aos professores.<br>
-
+<BR>
 PAUTA: Tabela para o armazenamento de informações relativas a listagem de elementos.<br>
+<BR>
 Código da Pauta: Campo que armazena o código referente a pauta e identifica a pauta de cada turma.<br>
+<BR>
 Situação: Campo que armazena a frequência dos alunos.<br>
+<BR>
 Data: Campo que armazena as datas das pautas.<br>
 
 
