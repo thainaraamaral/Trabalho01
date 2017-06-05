@@ -90,23 +90,31 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/MODELO%20F%C3%8DSICO.sq
         c) fontes de estudo para desenvolvimento do projeto
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
-        Para criar as tabelas foi utilizado o código:
-        CREATE TABLE <nome da tabela> (
-        atributo1 tipo_do_atributo,
-        atributo2 tipo_do_atributo)
-        
-        b) inclusão das instruções de inserção dos dados nas referidas tabelas
-        c) inclusão das instruções para execução de outros procedimentos necessários
 
-
-        Entrega até este ponto em (data a ser definida)
-        
+CRIAÇÃO DE TABELA :
+<BR>
+CREATE TABLE PESSOA(
+COD_PESSOA INT NOT NULL,
+NOME VARCHAR(45),
+SENHA VARCHAR(10),
+EMAIL VARCHAR (45),
+PRIMARY KEY (COD_PESSOA));
+<BR> <BR>
+INSERÇÃO DE DADOS NA TABELA:
+<BR>
+INSERT INTO PESSOA (COD_PESSOA,NOME,SENHA,EMAIL)
+VALUES (001,'ANA','IFES2017','ANA.BD@GMAIL.COM'),
+(002,'BIA','IFES2017','BIA.BD@GMAIL.COM');
+ <BR><BR>
+ 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 select * from empregado<br><br>
 ![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/tabela_empregado.png?raw=true "Title")
+
+SELECT*FROM PESSOAS; <BR> <BR>
+(POR IMAGEM)
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
