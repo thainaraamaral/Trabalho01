@@ -29,7 +29,7 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf <
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
+    Grupo 1: Milena Gomes e Luiza Alves <br>
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
