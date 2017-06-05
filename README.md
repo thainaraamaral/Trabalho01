@@ -79,76 +79,10 @@ Data: Campo que armazena as datas das pautas.<br>
 
 https://github.com/thainaraamaral/Trabalho01/blob/master/Esquema%20F%C3%ADsico.sql
 
-<br>
-CREATE TABLE PAUTA (
-situacao VARCHAR(10),
-data VARCHAR(10),
-cod_pauta VARCHAR(10) PRIMARY KEY,
-cod_pessoa VARCHAR(10),
-cod_turma VARCHAR(10)
-)
-
-CREATE TABLE AVALIA (
-cod_turma VARCHAR(10),
-cod_pessoa VARCHAR(10)
-)
-
-CREATE TABLE PESSOA_ALUNO_PROFESSOR (
-nome VARCHAR(10),
-senha VARCHAR(10),
-email VARCHAR(10),
-cod_pessoa VARCHAR(10) PRIMARY KEY,
-horario VARCHAR(10),
-matricula VARCHAR(10),
-siape VARCHAR(10),
--- Erro: nome do campo duplicado nesta tabela!
-horario VARCHAR(10)
-)
-
-CREATE TABLE TURMA (
-cod_turma VARCHAR(10) PRIMARY KEY,
-descricao VARCHAR(10)
-)
-
-CREATE TABLE disciplina_professor (
-cod_discip_prof VARCHAR(10),
-cod_pessoa VARCHAR(10),
-cod_discip VARCHAR(10),
-cod_pauta VARCHAR(10),
-PRIMARY KEY(cod_discip_prof,cod_pessoa,cod_discip,cod_pauta)
-)
-
-CREATE TABLE DISCIPLINA (
-nome VARCHAR(10),
-cod_discip VARCHAR(10) PRIMARY KEY,
-total_de_aula VARCHAR(10)
-)
-
-CREATE TABLE REALIZA (
-NOTA VARCHAR(10),
-cod_atvd VARCHAR(10),
-cod_pessoa VARCHAR(10),
-FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)
-)
-
-CREATE TABLE ATIVIDADE (
-data VARCHAR(10),
-nome VARCHAR(10),
-cod_atvd VARCHAR(10) PRIMARY KEY,
-cod_discip VARCHAR(10),
-FOREIGN KEY(cod_discip) REFERENCES DISCIPLINA (cod_discip)
-)
-
-ALTER TABLE PAUTA ADD FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)
-ALTER TABLE PAUTA ADD FOREIGN KEY(cod_turma) REFERENCES TURMA (cod_turma)
-ALTER TABLE AVALIA ADD FOREIGN KEY(cod_turma) REFERENCES TURMA (cod_turma)
-ALTER TABLE AVALIA ADD FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)
-ALTER TABLE REALIZA ADD FOREIGN KEY(cod_atvd) REFERENCES ATIVIDADE (cod_atvd)
-
-        Entrega até este ponto em (data a ser definida)
-        
+<br>    
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a :
@@ -158,6 +92,11 @@ ALTER TABLE REALIZA ADD FOREIGN KEY(cod_atvd) REFERENCES ATIVIDADE (cod_atvd)
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) inclusão das instruções para criação das tabelas e estruturas de amazenamento do BD
+        Para criar as tabelas foi utilizado o código:
+        CREATE TABLE <nome da tabela> (
+        atributo1 tipo_do_atributo,
+        atributo2 tipo_do_atributo)
+        
         b) inclusão das instruções de inserção dos dados nas referidas tabelas
         c) inclusão das instruções para execução de outros procedimentos necessários
 
