@@ -30,7 +30,7 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf <
 
 #### 5.1 Validação do Modelo Conceitual
     Grupo 1: Milena Gomes e Luiza Alves <br>
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    Grupo 2: Gabril Novaes e Sabrina Leal <br>
 
 #### 5.2 DECISÕES DE PROJETO
 Disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligando os dois diretamente a pauta
@@ -87,7 +87,7 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/MODELO%20F%C3%8DSICO.sq
         Referenciar todas as fontes referentes a :
         a) obtenção dos dados
         b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
+        c) fontes de estudo par
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 
