@@ -77,6 +77,9 @@ Data: Campo que armazena as datas das pautas.<br>
 
 ### 7	MODELO FÍSICO<br>
 
+https://github.com/thainaraamaral/Trabalho01/blob/master/Esquema%20F%C3%ADsico.sql
+
+<br>
 CREATE TABLE PAUTA (
 situacao VARCHAR(10),
 data VARCHAR(10),
