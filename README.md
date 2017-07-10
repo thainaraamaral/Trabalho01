@@ -71,12 +71,13 @@ Senha: Campo que armazena as senhas das pessoas do sistema.<br>
 <BR>
 Código da Pessoa: Campo que armazena o código para diferenciação de pessoa, o código referente as pessoas.<br>
 <BR>
-ALUNO: Tabela para o armazenamento de informações relativas aos alunos que compõem o sistema e diferenciação entre alunos e professores.<br>
+ALUNO: Tabela para o armazenamento de informações relativas aos alunos que compõem o sistema.<br>
+<BR>
 Matricula: Campo que armazena as matriculas dos alunos.<br>
 <BR>
 Horário: Campo que armazena os horários referentes aos alunos.<br>
 <BR>
-PROFESSOR: Tabela para o armazenamento de informações relativas aos professores que compõem o sistema e diferenciação entre alunos e professores.<br>
+PROFESSOR: Tabela para o armazenamento de informações relativas aos professores que compõem o sistema.<br>
 <BR>
 Siape: Campo que armazena o Siape referente a cada professor.<br>
 <BR>
