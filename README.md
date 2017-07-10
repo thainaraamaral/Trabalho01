@@ -1,5 +1,5 @@
 # SISTEMA DE AVALIAÇÃO ESCOLAR
-Trabalho desenvolvido durante a disciplina de BD
+Trabalho desenvolvido durante a disciplina de Banco de Dados.
 
 # Sumário
 
