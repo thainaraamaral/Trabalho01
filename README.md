@@ -24,7 +24,7 @@ O sistema tem como principal função avaliar turmas, disciplinas e professores.
 https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf <br>
 
 ### 5.MODELO CONCEITUAL<br>
-![Alt text](https://github.com/thainaraamaral/Trabalho01/blob/master/CONCEITUAL.png) <br>
+![Alt text](Modelo_Conceitual_01) <br>
     
     b) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
 
