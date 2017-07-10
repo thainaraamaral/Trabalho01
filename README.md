@@ -107,7 +107,7 @@ Código Horário: Campo que armazena o código referente ao horário.<br>
 
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](Modelo_Lógico_01.jpg)
+![Alt text](Modelo_Lógico_02.jpg)
 
 ### 7	MODELO FÍSICO<br>
 
