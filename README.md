@@ -89,6 +89,20 @@ Código da Pauta: Campo que armazena o código referente a pauta e identifica a 
 Situação: Campo que armazena a frequência dos alunos.<br>
 <BR>
 Data: Campo que armazena as datas das pautas.<br>
+<BR>
+HORÁRIO: Tabela para o armazenamento de informações relativas aos horários e datas.<br>
+<BR>
+Horário de Início: Campo que armazena os horários iniciais das aulas.<br>
+<BR>
+Horário de Fim: Campo que armazena os horários ide finalização das aulas.<br>
+<BR>
+Dia da Semana: Campo que armazena os dias da semana.<br>
+<BR>
+Local: Campo que armazena o local das aulas.<br>
+<BR>
+Data: Campo que armazena as datas para as aulas.<br>
+<BR>
+Código Horário: Campo que armazena o código referente ao horário.<br>
 
 
 ### 6	MODELO LÓGICO<br>
