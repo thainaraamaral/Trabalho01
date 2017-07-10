@@ -33,7 +33,7 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/Sistema%2BEscolar.pdf <
   Grupo 2: Gabriel Novaes e Sabrina Leal <br>
 
 #### 5.2 DECISÕES DE PROJETO
-Disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligando os dois diretamente a pauta
+Disciplina_professor : A relação disciplina_professor possui um atributo identificador (cod_discip_prof) para relacionar o professor e a disciplina, ligando os dois diretamente a pauta.
 <br>
 Pauta: A pauta é um relacionamento entre relações que vira uma entidade associativa e foi utilizada pois necessitava interligar relações que geraria uma nova tabela. Na mesma conterá informações relativa a pauta, turma e disciplinas.
 
