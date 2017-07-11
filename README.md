@@ -127,98 +127,109 @@ https://github.com/thainaraamaral/Trabalho01/blob/master/MODELO%20F%C3%8DSICO.sq
 
 CRIAÇÃO DE TABELA :
 <BR>
-CREATE TABLE PESSOA(
-COD_PESSOA INT NOT NULL,<BR>
-NOME VARCHAR(45),<BR>
-SENHA VARCHAR(10),<BR>
-EMAIL VARCHAR (45),<BR>
-PRIMARY KEY (COD_PESSOA));<BR>
+
+CREATE TABLE PESSOA(  <BR>
+COD_PESSOA INT NOT NULL,  <BR>
+NOME VARCHAR(45),  <BR>
+SENHA VARCHAR(10),  <BR>
+EMAIL VARCHAR (45),  <BR>
+PRIMARY KEY (COD_PESSOA));  <BR>
 <BR> <BR>
-CREATE TABLE PAUTA (
-data VARCHAR(10),
-cod_pauta VARCHAR(10) PRIMARY KEY,
-situacao VARCHAR(10),
-cod_pessoa VARCHAR(10),
-cod_turma VARCHAR(10)
-);
 
-CREATE TABLE DISCIPLINA (
-nome VARCHAR(10),
-cod_discip VARCHAR(10) PRIMARY KEY,
-total_de_aula VARCHAR(10)
-);
+CREATE TABLE PAUTA (    <BR>
+data VARCHAR(10),  <BR>
+cod_pauta VARCHAR(10) PRIMARY KEY,  <BR>
+situacao VARCHAR(10),  <BR>
+cod_pessoa VARCHAR(10),  <BR>
+cod_turma VARCHAR(10));
 
-CREATE TABLE ATIVIDADE (
-data VARCHAR(10),
-nome VARCHAR(10),
-cod_atvd VARCHAR(10) PRIMARY KEY,
-cod_discip VARCHAR(10),
-FOREIGN KEY(cod_discip) REFERENCES DISCIPLINA (cod_discip)
-);
+<BR>
 
-CREATE TABLE PESSOA_ALUNO_PROFESSOR (
-nome VARCHAR(10),
-senha VARCHAR(10),
-email VARCHAR(10),
-cod_pessoa VARCHAR(10) PRIMARY KEY,
-matricula VARCHAR(10),
-horario_do_aluno VARCHAR(10),
-siape VARCHAR(10),
-horario_do_professor VARCHAR(10)
-);
+CREATE TABLE DISCIPLINA (  <BR>
+nome VARCHAR(10),  <BR>
+cod_discip VARCHAR(10) PRIMARY KEY,  <BR>
+total_de_aula VARCHAR(10)); <BR> 
 
-CREATE TABLE TURMA (
-cod_turma VARCHAR(10) PRIMARY KEY,
-descricao VARCHAR(10)
-);
+<BR>
 
-CREATE TABLE HORARIO (
-horario_de_inicio VARCHAR(10),
-horario_de_fim VARCHAR(10),
-dia_da_semana VARCHAR(10),
-data VARCHAR(10),
-local VARCHAR(10),
-codigo_horario VARCHAR(10) PRIMARY KEY,
-cod_discip VARCHAR(10),
-cod_pessoa VARCHAR(10),
-FOREIGN KEY(cod_discip) REFERENCES DISCIPLINA (cod_discip),
-FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)
-);
+CREATE TABLE ATIVIDADE ( <BR>
+data VARCHAR(10), <BR>
+nome VARCHAR(10), <BR>
+cod_atvd VARCHAR(10) PRIMARY KEY, <BR>
+cod_discip VARCHAR(10), <BR>
+FOREIGN KEY(cod_discip) REFERENCES DISCIPLINA (cod_discip)); <BR>
 
-CREATE TABLE POSSUI (
-NOTA VARCHAR(10),
-cod_atvd VARCHAR(10),
-cod_pessoa VARCHAR(10),
-FOREIGN KEY(cod_atvd) REFERENCES ATIVIDADE (cod_atvd),
-FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)
-);
+<BR>
 
-CREATE TABLE AVALIA (
-nota VARCHAR(10),
-cod_turma VARCHAR(10),
-cod_pessoa VARCHAR(10),
-FOREIGN KEY(cod_turma) REFERENCES TURMA (cod_turma),
-FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)
-);
+CREATE TABLE PESSOA_ALUNO_PROFESSOR ( <BR>
+nome VARCHAR(10), <BR>
+senha VARCHAR(10), <BR>
+email VARCHAR(10), <BR>
+cod_pessoa VARCHAR(10) PRIMARY KEY, <BR>
+matricula VARCHAR(10), <BR>
+horario_do_aluno VARCHAR(10), <BR>
+siape VARCHAR(10), <BR>
+horario_do_professor VARCHAR(10)); <BR>
 
-CREATE TABLE disciplina_professor (
-cod_discip_prof VARCHAR(10),
-cod_pessoa VARCHAR(10),
-cod_discip VARCHAR(10),
-cod_pauta VARCHAR(10),
-PRIMARY KEY(cod_discip_prof,cod_pessoa,cod_discip,cod_pauta)
-);
+CREATE TABLE TURMA ( <BR>
+cod_turma VARCHAR(10) PRIMARY KEY, <BR>
+descricao VARCHAR(10)); <BR>
 
-CREATE TABLE TEM (
-codigo_horario VARCHAR(10),
-cod_pauta VARCHAR(10),
-FOREIGN KEY(codigo_horario) REFERENCES HORARIO (codigo_horario),
-FOREIGN KEY(cod_pauta) REFERENCES PAUTA (cod_pauta)
-);
+<BR>
 
+CREATE TABLE HORARIO ( <BR>
+horario_de_inicio VARCHAR(10), <BR>
+horario_de_fim VARCHAR(10), <BR>
+dia_da_semana VARCHAR(10), <BR>
+data VARCHAR(10), <BR>
+local VARCHAR(10), <BR>
+codigo_horario VARCHAR(10) PRIMARY KEY, <BR>
+cod_discip VARCHAR(10), <BR>
+cod_pessoa VARCHAR(10), <BR>
+FOREIGN KEY(cod_discip) REFERENCES DISCIPLINA (cod_discip), <BR>
+FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)); <BR>
+
+<BR>
+
+CREATE TABLE POSSUI ( <BR>
+NOTA VARCHAR(10), <BR>
+cod_atvd VARCHAR(10), <BR>
+cod_pessoa VARCHAR(10), <BR>
+FOREIGN KEY(cod_atvd) REFERENCES ATIVIDADE (cod_atvd), <BR>
+FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)); <BR>
+
+<BR>
+
+CREATE TABLE AVALIA ( <BR>
+nota VARCHAR(10), <BR>
+cod_turma VARCHAR(10), <BR>
+cod_pessoa VARCHAR(10), <BR>
+FOREIGN KEY(cod_turma) REFERENCES TURMA (cod_turma), <BR>
+FOREIGN KEY(cod_pessoa) REFERENCES PESSOA_ALUNO_PROFESSOR (cod_pessoa)); <BR>
+
+<BR>
+
+CREATE TABLE disciplina_professor ( <BR>
+cod_discip_prof VARCHAR(10), <BR>
+cod_pessoa VARCHAR(10), <BR>
+cod_discip VARCHAR(10), <BR>
+cod_pauta VARCHAR(10), <BR>
+PRIMARY KEY(cod_discip_prof,cod_pessoa,cod_discip,cod_pauta)); <BR>
+
+<BR>
+
+CREATE TABLE TEM ( <BR>
+codigo_horario VARCHAR(10), <BR>
+cod_pauta VARCHAR(10), <BR>
+FOREIGN KEY(codigo_horario) REFERENCES HORARIO (codigo_horario), <BR>
+FOREIGN KEY(cod_pauta) REFERENCES PAUTA (cod_pauta)); <BR>
+
+<BR>
 
 INSERÇÃO DE DADOS NA TABELA:
+
 <BR>
+
 INSERT INTO PESSOA (COD_PESSOA,NOME,SENHA,EMAIL)<BR>
 VALUES (001,'ANA','IFES2017','ANA.BD@GMAIL.COM'),<BR>
 (002,'BIA','IFES2017','BIA.BD@GMAIL.COM');<BR>
